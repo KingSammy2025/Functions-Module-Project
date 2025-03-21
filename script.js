@@ -1,4 +1,4 @@
-/* FUNCTIONS MODULE ASSIGNMENT
+ /* FUNCTIONS MODULE ASSIGNMENT
 Demonstrating knowledge of functions with parameters and return values using the myCanvas
 */
 
@@ -15,6 +15,7 @@ let lion2 = document.getElementById("lion-image2");
 let lion3 = document.getElementById("lion-image3");
 let lionTrees = document.getElementById("lion-trees");
 let Birds = document.getElementById("birds-image");
+let dangerZone = document.getElementById("danger-zone");
 
 // Do not add/remove code from this section:
 // ***************************************************
@@ -63,6 +64,7 @@ ctx.lineWidth = 2;
 // Lion
 Lion(lion, 100, 430, 200, 150);
 Lion(lion, 20, 350, 200, 150);
+Lion(lion, 180, 350, 200, 150);
 Lion(lion2, 200, 490, 200, 180);
 Lion(lion2, 370, 490, 200, 180);
 Lion(lion3, 700, 400, 200, 150);
@@ -76,6 +78,9 @@ Trees(lionTrees, 830, 230, 200, 230);
 
 // Birds
 ctx.drawImage(Birds, 380, 60, 270, 250);
+
+// Danger zone
+ctx.drawImage(dangerZone, 430, 280, 150, 150);
 
 // Helper functions
 function clouds(cloud, x, y, w, h) {
