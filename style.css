@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+}
+
+#myCanvas {
+  border: 2px solid gray;
+}
+
+#cloud-image {
+  display: none;
+}
+
+#lion-image {
+  display: none;
+}
+#lion-image2 {
+  display: none;
+}
+#lion-image3 {
+  display: none;
+}
+#lion-trees {
+  display: none;
+}
+#birds-image {
+  display: none;
+}
+#danger-zone {
+  display: none;
+}
+#lion-sleeping {
+  display: none;
+}
+#lion-sleeping2 {
+  display: none;
+}
+#lion-sleeping3 {
+  display: none;
+}
